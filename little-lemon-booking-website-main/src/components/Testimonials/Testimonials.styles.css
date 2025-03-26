@@ -1,0 +1,147 @@
+/* TESTIMONIALS */
+.testimonials {
+  height: auto;
+  background-color: #ffffff;
+  color: #333333;
+  padding: 3rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+}
+
+.testimonials-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+}
+
+.testimonials-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #222222;
+}
+
+.testimonials-details {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #555555;
+  max-width: 600px;
+  line-height: 1.6;
+}
+
+.testimonials-background {
+  background-color: #f9f9f9;
+  color: #444444;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.testimonials-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.testimonials-map-container {
+  margin: 1rem;
+  text-align: center;
+}
+
+.testimonials-image {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border: 2px solid #dddddd;
+}
+
+.testimonials-stars {
+  margin: 0.5rem 0;
+  color: #f5c518;
+}
+
+.testimonials-star {
+  width: 16px;
+  height: 16px;
+}
+
+.testimonials-name {
+  margin: 0.5rem 0;
+  font-weight: 600;
+  font-size: 16px;
+  color: #222222;
+}
+
+.testimonials-description {
+  font-style: normal;
+  font-size: 14px;
+  color: #666666;
+}
+
+@media (min-width: 768px) {
+  .testimonials {
+    padding: 5rem;
+  }
+
+  .testimonials-title {
+    font-size: 28px;
+  }
+
+  .testimonials-details {
+    font-size: 20px;
+    max-width: 700px;
+  }
+
+  .testimonials-image {
+    width: 100px;
+    height: 100px;
+  }
+
+  .testimonials-star {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .testimonials {
+    padding: 6rem;
+  }
+
+  .testimonials-container {
+    gap: 3rem;
+  }
+
+  .testimonials-name {
+    font-size: 18px;
+  }
+
+  .testimonials-description {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .testimonials {
+    padding: 6rem 10rem;
+  }
+
+  .testimonials-container {
+    gap: 4rem;
+  }
+
+  .testimonials-image {
+    width: 120px;
+    height: 120px;
+  }
+
+  .testimonials-star {
+    width: 24px;
+    height: 24px;
+  }
+}
